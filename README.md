@@ -16,13 +16,14 @@ I have done the following:
 
 ### Files
 
-[Closing Prices Starter Notebook](Starter_Code/lstm_stock_predictor_closing.ipynb)
+[Closing Prices Notebook](Codes/lstm_stock_predictor_closing.ipynb)
 
-[FNG Starter Notebook](Starter_Code/lstm_stock_predictor_fng.ipynb)
+[FNG Notebook](Codes/lstm_stock_predictor_fng.ipynb)
 
 - - -
 
 ## Instructions
+
 
 ### Prepare the data for training and testing
 
@@ -38,6 +39,7 @@ Applied a MinMaxScaler to the X and y values to scale the data for the model.
 
 Finally, reshaped the X_train and X_test values to fit the model's requirement of samples, time steps, and features. (*example:* `X_train = X_train.reshape((X_train.shape[0], X_train.shape[1], 1))`)
 
+
 ### Build and train custom LSTM RNNs
 
 In each Jupyter Notebooks, created the same custom LSTM RNN architecture. In one notebook, I have fited the data using the FNG values while in the other, the data was fit using only closing prices.
@@ -50,6 +52,7 @@ I have experimented with the model architecture and parameters to see which prov
 ### Evaluate the performance of each model
 
 Finally, used the testing data to evaluate each model and compare the performance.
+
 
 ### Comparitive Analysis and Findings
 
@@ -66,7 +69,6 @@ I have compared both the above LSTM models by varying the window size and number
     Deep Learning Model which uses a window of closing prices to predict the 5th closing price tracks the actual values better than the model which uses FNG indicators to predict the closing price as shown in the respective graphs below.
 
 ![LSTM Model with Closing Prices](Images/Plot_CP_4_10.png) ![LSTM Model with FNG](Images/Plot_FNG_4_10.png)
-
 
 3. Which window size works best for the model? 
 
