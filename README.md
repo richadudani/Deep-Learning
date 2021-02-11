@@ -58,7 +58,7 @@ Finally, used the testing data to evaluate each model and compare the performanc
 
 I have compared both the above LSTM models by varying the window size and number of units. Based on which I have tried to answer the following questions:
 
-   ![Comparitive Analysis](Images/Comparitive_Analysis.png)
+   ![Comparitive Analysis](Images/Comparitive_Analysis.PNG)
 
 1. Which model has a lower loss?
 
@@ -68,7 +68,7 @@ I have compared both the above LSTM models by varying the window size and number
 
     Deep Learning Model which uses a window of closing prices to predict the 5th closing price tracks the actual values better than the model which uses FNG indicators to predict the closing price as shown in the respective graphs below.
 
-   ![LSTM Model with Closing Prices](Images/Plot_CP_4_10.png) ![LSTM Model with FNG](Images/Plot_FNG_4_10.png)
+   ![LSTM Model with Closing Prices](Images/Plot_CP_4_10.PNG) ![LSTM Model with FNG](Images/Plot_FNG_4_10.PNG)
 
 3. Which window size works best for the model? 
 
